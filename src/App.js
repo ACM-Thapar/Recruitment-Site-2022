@@ -1,4 +1,3 @@
-import './App.css';
 import {Fragment} from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Content from './Components/Content/Content';

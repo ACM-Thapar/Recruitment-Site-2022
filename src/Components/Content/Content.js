@@ -19,7 +19,7 @@ function Content () {
           {/* Title Box */}
           <div className="title-box col-11 m-5 row justify-content-center align-items-center">
             <h1 className="m-md-5 mx-5 mt-4 col-12 title">Recruitment 2022</h1>
-            <button className="btn my-5 col-9 col-sm-3 col-md-3 col-lg-3">
+            <button className="btn my-5 col-12 col-sm-6 col-md-5 col-lg-3">
               Register Now
             </button>
           </div>
@@ -32,9 +32,7 @@ function Content () {
               contentArrowStyle={{
                 borderRight: '7px solid  #0F283E',
               }}
-              // date="2011 - present"
               iconStyle={{background: 'rgb(33, 150, 243)', color: '#fff'}}
-              // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
                 Recruitment Form
@@ -49,9 +47,7 @@ function Content () {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              // date="2010 - 2011"
               iconStyle={{background: '#0F283E', color: '#fff'}}
-              // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Form Closes</h3>
               <h5 className=" mt-3 vertical-timeline-element-subtitle">
@@ -67,9 +63,7 @@ function Content () {
               contentArrowStyle={{
                 borderRight: '7px solid  #0F283E',
               }}
-              // date="2008 - 2010"
               iconStyle={{background: 'rgb(233, 30, 99)', color: '#fff'}}
-              // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Emails Out</h3>
               <h5 className=" mt-3 vertical-timeline-element-subtitle">
@@ -81,9 +75,7 @@ function Content () {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              // date="2006 - 2008"
               iconStyle={{background: '#0F283E', color: '#fff'}}
-              // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">
                 Direct PI form
@@ -102,9 +94,7 @@ function Content () {
               contentArrowStyle={{
                 borderRight: '7px solid  #0F283E',
               }}
-              // date="April 2013"
               iconStyle={{background: 'rgb(233, 30, 99)', color: '#fff'}}
-              // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">
                 Personal Interview Round
@@ -118,9 +108,7 @@ function Content () {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              // date="November 2012"
               iconStyle={{background: 'rgb(16, 204, 82)', color: '#fff'}}
-              // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">
                 Results
@@ -132,43 +120,8 @@ function Content () {
                 The best out of the best will be chosen{' '}
               </p>
             </VerticalTimelineElement>
-            {/* <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={{background: '#0F283E', color: '#fff'}}
-              contentArrowStyle={{
-                borderRight: '7px solid  #0F283E',
-              }}
-              // date="2002 - 2006"
-              iconStyle={{background: 'rgb(233, 30, 99)', color: '#fff'}}
-              // icon={<SchoolIcon />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Bachelor of Science in Interactive Digital Media Visual Imaging
-              </h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                Bachelor Degree
-              </h5>
-              <p>
-                Creative Direction, Visual Design
-              </p>
-            </VerticalTimelineElement> */}
-            {/* <VerticalTimelineElement
-              iconStyle={{background: 'rgb(16, 204, 82)', color: '#fff'}}
-              // icon={<StarIcon />}
-            /> */}
           </VerticalTimeline>
           {/*  */}
-
-          {/* Departments*/}
-          {/* <div className="department-box col-12 m-0 p-0 justify-content-center align-items-center">
-            <h1 className="mt-5">Departments that need you</h1>
-            <div className="deps row justify-content-center align-items-center text-center">
-              <div className=" dep tech col-3 m-3">
-                <div></div>
-              </div>
-              <div className="dep non-tech col-3 m-3">non-tech</div>
-            </div>
-          </div> */}
 
           {/* FAQ */}
           <div className="faq-box col-12 m-0 p-0 justify-content-center align-items-center">
