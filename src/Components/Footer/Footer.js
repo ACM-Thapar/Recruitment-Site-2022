@@ -20,7 +20,7 @@ function Footer () {
               className="d-inline-block align-text-top logo float-left"
             />
           </a>
-          <div>
+          <div className='mb-md-0 mb-3'>
             <a href="https://discord.gg/8gux4cpXty" className="text-end mx-3">
               <img
                 src={Discord}

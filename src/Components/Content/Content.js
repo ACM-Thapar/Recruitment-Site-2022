@@ -143,7 +143,7 @@ function Content () {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  Do I keed prior skills and knowledge to apply for ACM's recruitments?
+                  Do I need prior skills and knowledge to apply for ACM's recruitments?
                 </button>
               </h2>
               <div
@@ -177,7 +177,7 @@ function Content () {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body text-start">
-                  Yes, the recruitments are for te students who had just turned sophomores
+                  Yes, the recruitments are for the students who had just turned sophomores
                 </div>
               </div>
             </div>
@@ -204,7 +204,7 @@ function Content () {
                 <div className="accordion-body text-start">
                   There are two ways to reach th Personal Interview round to get selected :
                   <br />
-                  1. Via the Quiz
+                  1. Via the Quiz<br/>
                   2. Via Showcasing your projects or some other work
                   <br />
                   Fill the registration form to get more updates
@@ -264,7 +264,7 @@ function Content () {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body text-start">
-                  To know about us go on our official website and check out our social media handles foe sure :)
+                  To know about us go on our <a href="https://acm-thapar.netlify.app/">official website</a> and check out our social media handles foe sure :)
                 </div>
               </div>
             </div>
