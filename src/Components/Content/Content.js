@@ -177,7 +177,7 @@ function Content () {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body text-start">
-                  Yes, the recruitments are for the students who had just turned sophomores
+                  Yes, the recruitments are for the just turned sophomores
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@ function Content () {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body text-start">
-                  There are two ways to reach th Personal Interview round to get selected :
+                  There are two ways to reach the Personal Interview round to get selected :
                   <br />
                   1. Via the Quiz<br/>
                   2. Via Showcasing your projects or some other work
