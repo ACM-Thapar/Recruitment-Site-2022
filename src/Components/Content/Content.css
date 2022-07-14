@@ -1,5 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/debug-free-trial');
 @import url('https://fonts.cdnfonts.com/css/uncracked-free-trial');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +16,7 @@
 .content-box {
     border: 8px solid #0F283E;
     border-radius: 50px 50px 0 0;
-    background-color: #CDC2AE;
+    background-color: #C2D4EE;
 }
 
 .title-box {
@@ -24,25 +26,25 @@
 }
 
 .title-box h1 {
-    font-family: 'DEBUG FREE TRIAL', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     word-wrap: break-word;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 .title-box button {
-    border: 15px solid #0f283e;
-    border-radius: 30px;
-    font-family: 'Uncracked Free Trial', sans-serif;
-    font-size: 3rem;
-    transition: 2s;
+    border: 10px solid #6DA2D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 46.5px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.8vw;
 }
 
 .title-box button:hover {
-    animation: effect 0.4s infinite;
+    /* animation: effect 0.4s infinite; */
 }
 
 .title-box button:active {
-    animation: effect 0.4s infinite;
+    /* animation: effect 0.4s infinite; */
 }
 
 @keyframes effect {
@@ -74,7 +76,7 @@
 .department-box h1,
 .faq-box h1,
 .faq-box h3 {
-    font-family: 'DEBUG FREE TRIAL', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     word-wrap: break-word;
     font-size: 6vw;
 }
@@ -106,8 +108,18 @@
     box-shadow: 0px !important;
 }
 
-/* @media only screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .title-box button {
-        font-size: 2rem;
+        font-size: 5vw;
     }
-} */
+}
+
+@media screen and (max-width: 800px) {
+    .title-box button {
+        font-size: 3vw;
+    }
+
+    .title-box h1 {
+        font-size: 7vw;
+    }
+}

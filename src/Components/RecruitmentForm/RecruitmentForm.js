@@ -40,7 +40,7 @@ function RecruitmentForm() {
                   data-type="control_head"
                 >
                   <div className="form-header-group  header-large px-md3 py-md-0 m-md-0">
-                    <div className="header-text httal htvam p-0">
+                    <div className="header-text httal htvam p-0 mt-3">
                       <h1
                         id="header_1"
                         className="form-header text-center"

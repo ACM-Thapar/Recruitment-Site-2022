@@ -20,7 +20,7 @@ function Content () {
             <h1 className="m-md-5 mx-5 mt-4 col-12 title">Recruitment 2022</h1>
             <button
               onClick={() => navigate ('/form')}
-              className="btn my-5 col-12 col-sm-6 col-md-5 col-lg-3"
+              className="btn col-lg-3 col-sm-6 col-8 col-md-2 mb-4"
             >
               {/* <Link style={{ textDecoration: 'none' }} to="/form"> */}
               Register Now
@@ -268,7 +268,7 @@ function Content () {
                   To know about us go on our{' '}
                   <a href="https://acm-thapar.netlify.app/">official website</a>
                   {' '}
-                  and check out our social media handles foe sure :)
+                  and check out our social media handles for sure :)
                 </div>
               </div>
             </div>
