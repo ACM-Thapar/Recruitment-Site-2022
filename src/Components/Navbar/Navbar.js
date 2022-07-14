@@ -9,7 +9,7 @@ function Navbar () {
     <Fragment>
       <nav className="navbar">
         <div className="container-fluid align-items-center">
-          <a className="navbar-brand" href="https://acm-thapar.netlify.app/">
+          <a className="navbar-brand" href="https://www.acmthapar.com">
             <img
               src={Logo}
               alt=""
