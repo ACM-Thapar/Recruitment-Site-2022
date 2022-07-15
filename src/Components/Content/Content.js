@@ -6,10 +6,10 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { PopupButton } from "@typeform/embed-react";
 function Content() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <Fragment>
       {/* Main Page */}
