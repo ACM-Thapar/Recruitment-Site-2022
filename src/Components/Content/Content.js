@@ -1,14 +1,15 @@
-import React from 'react';
-import {Fragment} from 'react';
-import './Content.css';
+import React from "react";
+import { Fragment } from "react";
+import "./Content.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import {useNavigate} from 'react-router-dom';
-function Content () {
-  const navigate = useNavigate ();
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+// import { useNavigate } from "react-router-dom";
+import { PopupButton } from "@typeform/embed-react";
+function Content() {
+  // const navigate = useNavigate();
   return (
     <Fragment>
       {/* Main Page */}
@@ -18,25 +19,25 @@ function Content () {
           {/* Title Box */}
           <div className="title-box col-11 m-5 row justify-content-center align-items-center">
             <h1 className="m-md-5 mx-5 mt-4 col-12 title">Recruitment 2022</h1>
-            <button
-              onClick={() => navigate ('/form')}
+            <PopupButton id="EikLBuEY"
+              // onClick={() => navigate("/form")}
               className="btn col-lg-3 col-sm-6 col-8 col-md-2 mb-4"
             >
               {/* <Link style={{ textDecoration: 'none' }} to="/form"> */}
               Register Now
               {/* </Link> */}
-            </button>
+            </PopupButton>
           </div>
 
           {/* Timeline */}
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{background: '#0F283E', color: '#fff'}}
+              contentStyle={{ background: "#0F283E", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: '7px solid  #0F283E',
+                borderRight: "7px solid  #0F283E",
               }}
-              iconStyle={{background: 'rgb(33, 150, 243)', color: '#fff'}}
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
                 Recruitment Form
@@ -49,7 +50,7 @@ function Content () {
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              iconStyle={{background: '#0F283E', color: '#fff'}}
+              iconStyle={{ background: "#0F283E", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">Form Closes</h3>
               <h5 className=" mt-3 vertical-timeline-element-subtitle">
@@ -59,11 +60,11 @@ function Content () {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{background: '#0F283E', color: '#fff'}}
+              contentStyle={{ background: "#0F283E", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: '7px solid  #0F283E',
+                borderRight: "7px solid  #0F283E",
               }}
-              iconStyle={{background: 'rgb(233, 30, 99)', color: '#fff'}}
+              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">Emails Out</h3>
               <h5 className=" mt-3 vertical-timeline-element-subtitle">
@@ -75,7 +76,7 @@ function Content () {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              iconStyle={{background: '#0F283E', color: '#fff'}}
+              iconStyle={{ background: "#0F283E", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
                 Direct PI form
@@ -91,11 +92,11 @@ function Content () {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              contentStyle={{background: '#0F283E', color: '#fff'}}
+              contentStyle={{ background: "#0F283E", color: "#fff" }}
               contentArrowStyle={{
-                borderRight: '7px solid  #0F283E',
+                borderRight: "7px solid  #0F283E",
               }}
-              iconStyle={{background: 'rgb(233, 30, 99)', color: '#fff'}}
+              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
                 Personal Interview Round
@@ -110,7 +111,7 @@ function Content () {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              iconStyle={{background: 'rgb(16, 204, 82)', color: '#fff'}}
+              iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">Results</h3>
               <h5 className=" mt-3 vertical-timeline-element-subtitle">
@@ -265,9 +266,8 @@ function Content () {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body text-start">
-                  To know about us go on our{' '}
-                  <a href="https://acm-thapar.netlify.app/">official website</a>
-                  {' '}
+                  To know about us go on our{" "}
+                  <a href="https://acmthapar.com/">official website</a>{" "}
                   and check out our social media handles for sure :)
                 </div>
               </div>
