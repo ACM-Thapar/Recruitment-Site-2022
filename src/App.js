@@ -11,7 +11,7 @@ function App () {
       <Navbar />
       <Routes>
         <Route path="/" element={<Content />} />
-        <Route path="/form" element={<RecruitmentForm />} />
+        {/* <Route path="/form" element={<RecruitmentForm />} /> */}
       </Routes>
       {/* <Content /> */}
       {/* <RecruitmentForm /> */}
